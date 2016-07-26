@@ -1,5 +1,5 @@
 var tray = new gui.Tray({
-  title: 'Todoist Linux',
+  title: 'Inoreader Linux',
   icon: 'assets/icon.png'
 });
 
