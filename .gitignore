@@ -1,0 +1,10 @@
+.DS_Store
+build
+node_modules
+dist
+vendor
+coverage
+
+config.js
+.tmp
+*.log
