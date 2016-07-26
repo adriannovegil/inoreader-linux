@@ -1,21 +1,21 @@
 {
-  "name": "Todoist",
+  "name": "Inoreader",
   "version": "0.0.1",
-  "description": "A Linux desktop client for todoist",
+  "description": "A Linux desktop client for Inoreader",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "",
   "keywords": [
-    "to-do",
-    "task",
-    "todoist",
+    "rss",
+    "feeds",
+    "inoreader",
     "linux"
   ],
   "single-instance": true,
   "window": {
-    "title": "Todoist",
+    "title": "Inoreader",
     "toolbar": false,
     "position": "center",
     "width": 800,
@@ -25,6 +25,6 @@
   "webkit": {
     "page-cache": true
   },
-  "author": "kamhix <kimly02@gmail.com",
-  "license": "MIT"
+  "author": "Adrian Novegil <adrian.novegil@gmail.com",
+  "license": "GPL"
 }

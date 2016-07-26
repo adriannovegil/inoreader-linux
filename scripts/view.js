@@ -12,7 +12,7 @@ var checkLink = function (e) {
 
 
   if (link && link.href !=='' && !link.href.endsWith('#') &&
-      !link.href.startsWith('https://todoist.com/app')) {
+      !link.href.startsWith('http://www.inoreader.com/')) {
     e.preventDefault();
     gui.Shell.openExternal(link.href);
   }
@@ -29,8 +29,8 @@ view.addEventListener('load', function () {
 
   var winFrame = this.contentWindow;
 
-  if (winFrame.location.href === 'https://todoist.com/seeYou') {
-    winFrame.location.href = 'https://todoist.com/app';
+  if (winFrame.location.href === 'http://www.inoreader.com/') {
+    winFrame.location.href = 'http://www.inoreader.com/';
   } else {
     loader.className = 'loader hide';
   }
