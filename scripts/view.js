@@ -29,11 +29,14 @@ view.addEventListener('load', function () {
 
   var winFrame = this.contentWindow;
 
-  if (winFrame.location.href === 'http://www.inoreader.com/') {
+  /*if (winFrame.location.href === 'http://www.inoreader.com/') {
     winFrame.location.href = 'http://www.inoreader.com/';
   } else {
     loader.className = 'loader hide';
-  }
+  }*/
+
+  // Once the page is loaded, hide the loading layer
+  loader.className = 'loader hide';
 
   winFrame.onbeforeunload = function(e) {
     loader.className = 'loader';
