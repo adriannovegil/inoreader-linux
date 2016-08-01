@@ -1,0 +1,30 @@
+{
+  "name": "Inoreader",
+  "version": "0.0.1",
+  "description": "A Linux desktop client for Inoreader",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "rss",
+    "feeds",
+    "inoreader",
+    "linux"
+  ],
+  "single-instance": true,
+  "window": {
+    "title": "Inoreader",
+    "toolbar": false,
+    "position": "center",
+    "width": 1400,
+    "height": 768,
+    "icon": "assets/icon.png"
+  },
+  "webkit": {
+    "page-cache": true
+  },
+  "author": "Adrian Novegil <adrian.novegil@gmail.com",
+  "license": "GPL"
+}
